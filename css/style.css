@@ -144,7 +144,7 @@ body {
 }
 
 .todo-buttons {
-    width: 100px;
+    width: 150px;
     height: 50px;
 
     position: absolute;
@@ -180,6 +180,9 @@ body {
     left: 0;
 }
 
+.todo-edit {
+    background-image: url('../img/edit.png');
+}
 .todo-remove {
      background-image: url("../img/trash.png");
  }
