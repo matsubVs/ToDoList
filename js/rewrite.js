@@ -57,7 +57,6 @@ class Todo {
         if (todoItem.completed) {
             this.todoComplete.append(li);
             const lastChild = this.todoComplete.lastChild;
-            console.log(lastChild);
             animate({
                 duration: 500,
                 timing(timeFraction) {
@@ -141,7 +140,6 @@ class Todo {
                 if (item.completed) {
                     todoComplete.childNodes.forEach(item => {
                         if (item.key === target.key) {
-                            console.log('here1');
                             animate({
                                 duration: 500,
                                 timing(timeFraction) {
